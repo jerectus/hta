@@ -1,0 +1,27 @@
+.select-folder-popup {
+    position: fixed;
+    background-color: white;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    margin: 0px;
+    padding: 2px;
+}
+
+.select-folder-popup ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.select-folder-popup ul li {
+    padding-left: 16px;
+}
+
+.select-folder-popup ul li .cursor {
+    background-color: turquoise;
+}
+
+.select-folder-popup ul li .open-close {
+    font-family: monospace;
+    font-size: 9pt;
+}
